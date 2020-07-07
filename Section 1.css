@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #fff;
+	color:black;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto 0 auto;
+}
+
+/*-------------------------------*/
+/*Header*/
+/*-------------------------------*/
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://miro.medium.com/max/1440/0*xy4Ub1OpJXWABuE6);
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.hero-text-box{
+	position: absolute;
+	width:1140px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+h1{
+	margin-top:0;
+	margin-bottom: 20px;
+	color:#fff;
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+
+}
+
+
+/*-------------------------------*/
+/*Button*/
+/*-------------------------------*/
+
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px; 
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s color 0.2s ;
+}
+
+
+.btn-full:link,
+.btn-full:visited{
+	background-color: #00b894;
+	border: 1px solid #00b894 ;
+	color:#fff;
+	margin-right: 15px;
+
+}
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+	border: 1px solid #00b894 ;
+	color:#00b894 ;
+}
+
+
+
+.btn:hover,
+.btn:active{
+	background-color: #004134;
+
+}
+
+.btn-full:hover,
+.btn_full:active{
+	border:1px solid #004134 ;
+}
+
+.btn-ghost:hover,
+.btn_ghost:active{
+	border:1px solid #004134 ;
+	color:#fff;
+}
+
+
+.logo{
+	height:65px;
+	width:auto;
+	float:left;
+	margin-top: 20px;
+	
+
+}
+
+.main-nav{
+	float:right;
+	list-style: none;
+	margin-top: 55px;
+
+
+
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 0;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+
+	border-bottom: 2px solid #00b894; 
+}
+
