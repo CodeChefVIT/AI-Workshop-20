@@ -22,6 +22,11 @@
 ## Screenshots
 <img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-07-09%20(6).png" alt="Project Screenshots">
 
+<img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-07-09%20(9).png" alt="Project Screenshots">
+
+<img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-07-09%20(11).png" alt="Project Screenshots">
+
+
   
 
 ## Instructions to run
