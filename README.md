@@ -20,7 +20,9 @@
 
 
 ## Screenshots
-<img src="C:\Users\ADITYA\Desktop\2020-07-09 (6).png" alt="Project Screenshots">
+
+  ![image]("C:\Users\ADITYA\Desktop\2020-07-09 (6).png)
+
 
 ## Instructions to run
 
