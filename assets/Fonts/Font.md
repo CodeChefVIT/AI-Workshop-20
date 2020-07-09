@@ -1,1 +1,1 @@
-[Google Font Link]("https://fonts.googleapis.com/css2?family=Lato&display=swap")
+[Google Font Link](https://fonts.google.com/?query=Lato)
