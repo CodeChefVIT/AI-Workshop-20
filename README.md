@@ -20,7 +20,7 @@
 
 
 ## Screenshots
-<img src="https://github.com/akshatvg/common-entry-test/raw/master/static/img/header.png" alt="Project Screenshots">
+<img src="C:\Users\ADITYA\Desktop\2020-07-09 (6).png" alt="Project Screenshots">
 
 ## Instructions to run
 
