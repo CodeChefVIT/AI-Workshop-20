@@ -1,1 +1,0 @@
-[Image Link](https://miro.medium.com/max/1440/0*xy4Ub1OpJXWABuE6)
