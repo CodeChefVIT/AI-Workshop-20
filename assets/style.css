@@ -351,3 +351,210 @@ h3{
 	
 	line-height: 145%;
 }
+
+
+
+
+
+/*************************/
+.headers{
+	height: 100vh;
+	background-image: linear-gradient( rgba(0, 48, 39,0.3), rgba(0, 48, 39,0.3)) ,url("https://cdnph.upi.com/svc/sv/upi_com/4081574947728/2019/1/67f2c26214861d82d33bc87c3b0e22b2/Lionel-Messi-breaks-Cristiano-Ronaldo-record-in-Barcelona-Champions-League-win.jpg");
+	background-size: cover;
+	background-position: top;
+	
+	position: relative;
+
+
+}	
+
+
+
+
+.text-box{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.heading-primary{
+	color:#fff;
+	text-transform: none;
+	backface-visibility: hidden;
+	margin-bottom: 60px; /*for preventing shaky transition*/
+}
+.heading-primary-main{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 100;
+	
+	animation-name: moveInLeft;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+	margin-bottom: 20px;
+	color:#b8fff1;
+	margin-top: 20px;
+
+
+	/*animation-iteration-count: 3;*/
+	/*animation-delay:3s*/ 
+
+
+}
+
+.heading-primary-sub{
+	display: block;
+	font-size: 40px;
+	font-weight: 400;
+	
+	animation: moveInRight 1s ease-out;
+
+	
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+
+
+	
+}
+.heading-primary-sub:after{
+	display: block;
+	height:2px;
+	background-color: #00b894;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+/*animation*/
+@keyframes moveInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-10rem);
+
+	}
+
+	/*60%{
+		transform: rotate(120deg);
+	}
+	*/
+	80%{
+		transform: translateX(1rem);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+
+	}
+}
+
+@keyframes moveInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(10rem);
+
+	}
+	80%{
+		transform: translateX(-1rem);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+
+	}
+}
+
+
+/*button*/
+.btns:link,
+.btns:visited{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 40px;
+	display: inline-block;
+	border-radius: 100px;
+	transition: all 0.2s;
+	position: relative;
+	font-size: 16px;
+
+
+
+}
+
+.btns-white{
+	background-color: #fff;
+	color: #777;
+}
+
+.btns:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.btns:active{
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10rem rgba(0,0,0,0.2);
+}
+
+.btns::after{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	border-radius: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transition: all 0.4s;
+
+}
+.btns-white::after{
+	background-color: #fff;
+}
+.btns:hover::after{
+	transform: scaleX(1.4) scaleY(1.6);
+	opacity: 0;
+
+}
+
+@keyframes moveInBottom{
+	0%{
+		opacity: 0;
+		transform: translateY(30px);
+
+	}
+	
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+
+	}
+}
+
+.btns-animated{
+	animation: moveInBottom 0.5s ease-out 0.75s;
+	animation-fill-mode: backwards;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
