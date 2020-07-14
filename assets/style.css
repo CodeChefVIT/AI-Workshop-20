@@ -359,7 +359,7 @@ h3{
 /*************************/
 .headers{
 	height: 100vh;
-	background-image: linear-gradient(rgba(0, 48, 39,0.3), rgba(0, 48, 39,0.3)) ,url("C:/Users/ADITYA/Desktop/AI-Workshop-20/assets/images/Speaker.jpg");
+	background-image: linear-gradient( rgba(0, 48, 39,0.3), rgba(0, 48, 39,0.3)) ,url("https://cdnph.upi.com/svc/sv/upi_com/4081574947728/2019/1/67f2c26214861d82d33bc87c3b0e22b2/Lionel-Messi-breaks-Cristiano-Ronaldo-record-in-Barcelona-Champions-League-win.jpg");
 	background-size: cover;
 	background-position: top;
 	
