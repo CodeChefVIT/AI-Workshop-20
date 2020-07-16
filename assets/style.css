@@ -356,7 +356,7 @@ h3{
 
 
 
-/*************************/
+/*************************
 .headers{
 	height: 100vh;
 	background-image: linear-gradient( rgba(0, 48, 39,0.3), rgba(0, 48, 39,0.3)) ,url("https://cdnph.upi.com/svc/sv/upi_com/4081574947728/2019/1/67f2c26214861d82d33bc87c3b0e22b2/Lionel-Messi-breaks-Cristiano-Ronaldo-record-in-Barcelona-Champions-League-win.jpg");
@@ -383,7 +383,7 @@ h3{
 	text-transform: none;
 	backface-visibility: hidden;
 	margin-bottom: 60px; /*for preventing shaky transition*/
-}
+/*
 .heading-primary-main{
 	display: inline-block;
 	font-size: 20px;
@@ -400,8 +400,8 @@ h3{
 	/*animation-iteration-count: 3;*/
 	/*animation-delay:3s*/ 
 
-
-}
+/*
+{
 
 .heading-primary-sub{
 	display: block;
@@ -452,7 +452,7 @@ h3{
 
 	}
 }
-
+/*
 @keyframes moveInRight{
 	0%{
 		opacity: 0;
@@ -471,7 +471,7 @@ h3{
 }
 
 
-/*button*/
+/*button*
 .btns:link,
 .btns:visited{
 	text-transform: uppercase;
@@ -545,14 +545,52 @@ h3{
 }
 
 
+}
+*/
+.threed{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #000;
+}
+.box{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	transform-style: preserve-3d;
+	animation: animate 20s linear infinite;
 
 
+}
+@keyframes animate{
+	0%{
+		transform: perspective(1000px) rotateX(0deg) rotateY(35deg);
+	}
+	100%{
+		transform: perspective(1000px) rotateX(360deg) rotateY(35deg);
+	}
+}
+.box span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transform-origin: center;
+	transform-style: preserve-3d;
+	transform: rotateX(calc(var(--i)*45deg)) translateZ(300px);
 
+}
+.box span img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 
-
-
-
-
+}
 
 
 
