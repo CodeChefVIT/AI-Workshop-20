@@ -356,6 +356,48 @@ h3{
 
 
 
+.ai-quotes{
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("https://specials-images.forbesimg.com/imageserve/5ef030968548c80006be69fb/960x0.jpg?fit=scale");
+	background-size: cover;
+	color:white;
+	background-attachment: fixed;
+
+
+}
+
+blockquote{
+	padding: 2%;
+	font-style: italic;
+	line-height: 145%;
+	position: relative;
+}
+cite{
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+	margin-top: 40px;
+}
+
+blockquote:before{
+	content: "\201C";
+	font-size: 500%;
+	display: block;
+	position: absolute;
+	top:-5px;
+	left:-5px;
+}
+
+cite img{
+	height:45px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
+
+
+
 /*************************
 .headers{
 	height: 100vh;
