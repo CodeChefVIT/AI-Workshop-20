@@ -9,6 +9,14 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="vendors/grid.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+	
+	<script src ='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+	
 
 
 
@@ -194,30 +202,80 @@
 
 
 
-	<section class='threed'>
+	<section>
+		<div class="gallery-section">
+			<div class="inner-width">
+		
+			<h2>WON'T IT BE AMAZING IF YOU COULD KNOW ABOUT THESE APPLICATIONS:)</h2>
 
-		<div class="box">
-			<span style="--i:1;"><img src="assets/images/download1.jpg"></span>
+			<div class="border"></div>
 
-			<span style="--i:2;"><img src="assets/images/download2.jpg"></span>
+			<div class='gallery'>
+				<a href ="assets/images/img1.png" class="image">
+					<img src ="assets/images/img1.png">
+				</a>
 
-			<span style="--i:3;"><img src="assets/images/download3.jpg"></span>
+				<a href ="assets/images/img2.gif" class="image">
+					<img src ="assets/images/img2.gif">
+				</a>
 
-			<span style="--i:4;"><img src="assets/images/download4.jpeg"></span>
+				<a href ="assets/images/img3.jpeg" class="image">
+					<img src ="assets/images/img3.jpeg">
+				</a>
 
-			<span style="--i:5;"><img src="assets/images/download5.jpg"></span>
+				<a href ="assets/images/img4.png" class="image">
+					<img src ="assets/images/img4.png">
+				</a>
 
-			<span style="--i:6;"><img src="assets/images/download6.jpg"></span>
+				<a href ="assets/images/img5.jpg" class="image">
+					<img src ="assets/images/img5.jpg">
+				</a>
 
-			<span style="--i:7;"><img src="assets/images/download7.jpg"></span>
-			
-			<span style="--i:8;"><img src="assets/images/download8.png"></span>
+				<a href ="assets/images/img6.png" class="image">
+					<img src ="assets/images/img6.png">
+				</a>
+
+
+				<a href ="assets/images/img7.jpg" class="image">
+					<img src ="assets/images/img7.jpg">
+				</a>
+
+				<a href ="assets/images/img8.jpg" class="image">
+					<img src ="assets/images/img8.jpg">
+				</a>
+
+
+
+				
+
+				
+				
+			</div>
 		</div>
+	</div>
+
+			
+<script>
+	$(".gallery").magnificPopup({
+		delegate:'a',
+		type:'image',
+		gallery:{
+			enabled:true
+		}
+	})
+</script>
+
 	</section>
+
+
 
 	
 
 
+
+
+
+	
 
 	
 </body>
