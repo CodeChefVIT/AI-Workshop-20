@@ -47,8 +47,31 @@ h1{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	word-spacing: 4px;
-	animation: moveInLeft 1s ease-out;
+	-webkit-animation: moveInLeft 1s ease-out;
+	        animation: moveInLeft 1s ease-out;
 
+}
+
+@-webkit-keyframes moveInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-100px);
+
+	}
+
+	/*60%{
+		transform: rotate(120deg);
+	}
+	*/
+	80%{
+		transform: translateX(10px);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+
+	}
 }
 
 @keyframes moveInLeft{
@@ -127,6 +150,21 @@ h1{
 	color:#fff;
 }
 
+@-webkit-keyframes moveInBottom{
+	0%{
+		opacity: 0;
+		transform: translateY(30px);
+
+	}
+	
+
+	100%{
+		opacity: 1;
+		transform: translate(0);
+
+	}
+}
+
 @keyframes moveInBottom{
 	0%{
 		opacity: 0;
@@ -143,8 +181,10 @@ h1{
 }
 
 .btn-animate{
-	animation: moveInBottom 0.5s ease-out 0.75s;
-	animation-fill-mode: backwards;
+	-webkit-animation: moveInBottom 0.5s ease-out 0.75s;
+	        animation: moveInBottom 0.5s ease-out 0.75s;
+	-webkit-animation-fill-mode: backwards;
+	        animation-fill-mode: backwards;
 
 }
 
@@ -187,6 +227,8 @@ h1{
 
 	border-bottom: 2px solid #00b894; 
 }
+
+
 
 
 
@@ -327,6 +369,21 @@ h3{
   opacity:1;
 }
 
+@media screen and (max-width:800px){
+	.service{
+		width:50%;
+	}
+}
+
+
+
+@media screen and (max-width:500px){
+	.service{
+		width:100%;
+	}
+}
+
+
 
 
 
@@ -398,52 +455,7 @@ cite img{
 
 
 
-/*************************
-.headers{
-	height: 100vh;
-	background-image: linear-gradient( rgba(0, 48, 39,0.3), rgba(0, 48, 39,0.3)) ,url("https://cdnph.upi.com/svc/sv/upi_com/4081574947728/2019/1/67f2c26214861d82d33bc87c3b0e22b2/Lionel-Messi-breaks-Cristiano-Ronaldo-record-in-Barcelona-Champions-League-win.jpg");
-	background-size: cover;
-	background-position: top;
-	
-	position: relative;
 
-
-}	
-
-
-
-
-.text-box{
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
-}
-.heading-primary{
-	color:#fff;
-	text-transform: none;
-	backface-visibility: hidden;
-	margin-bottom: 60px; /*for preventing shaky transition*/
-/*
-.heading-primary-main{
-	display: inline-block;
-	font-size: 20px;
-	font-weight: 100;
-	
-	animation-name: moveInLeft;
-	animation-duration: 1s;
-	animation-timing-function: ease-out;
-	margin-bottom: 20px;
-	color:#b8fff1;
-	margin-top: 20px;
-
-
-	/*animation-iteration-count: 3;*/
-	/*animation-delay:3s*/ 
-
-/*
-{
 
 .heading-primary-sub{
 	display: block;
@@ -589,50 +601,89 @@ cite img{
 
 }
 */
-.threed{
+
+
+
+
+/**8new img*/
+
+
+.gallery-section{
+	width: 100%;
+	padding: 60px 0;
+	background: white;
+}
+
+.inner-width{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 20 px;
+}
+
+.gallery-section{
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+}
+
+
+.gallery-section .gallery{
 	display: flex;
+	flex-wrap: wrap-reverse;
 	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: #000;
 }
-.box{
-	position: relative;
-	width: 200px;
-	height: 200px;
-	transform-style: preserve-3d;
-	animation: animate 20s linear infinite;
 
+.gallery-section .image{
 
+	flex:25%;
+	overflow: hidden;
+	cursor: pointer;
 }
-@keyframes animate{
-	0%{
-		transform: perspective(1000px) rotateX(0deg) rotateY(35deg);
-	}
-	100%{
-		transform: perspective(1000px) rotateX(360deg) rotateY(35deg);
-	}
-}
-.box span{
-	position: absolute;
-	top: 0;
-	left: 0;
+
+.gallery-section .image img{
 	width: 100%;
 	height: 100%;
-	transform-origin: center;
-	transform-style: preserve-3d;
-	transform: rotateX(calc(var(--i)*45deg)) translateZ(300px);
-
+	transition: 0.4s;
 }
-.box span img{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-
+.gallery-section .image:hover img{
+	transform: scale(1.4) rotate(15deg);
 }
+
+@media screen and (max-width: 960px){
+	.gallery-section .image{
+		flex: 33.33%;
+	}
+}
+
+
+
+@media screen and (max-width: 768px){
+	.gallery-section .image{
+		flex: 50%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.gallery-section .image{
+		flex: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
