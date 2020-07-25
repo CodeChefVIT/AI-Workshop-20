@@ -1,0 +1,61 @@
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+	section { padding: 25px 0; }
+	
+		
+    
+}
+
+
+/*ipad and tablets  481 ot 767*/
+@media only screen and (max-width: 767px){
+	body{font-size: 16px;}
+	section{padding: 30px 0;}
+
+	.row,
+	.hero-text-box{padding: 0 4%;
+
+	}
+	.col{width: 100%;}
+
+}
+
+
+/* Portrait mode 768 to 1023 */
+@media only screen and (max-width: 1023px){
+	body{font-size: 18px;}
+	section{ padding:60px 0; }
+
+	.long-copy{
+		
+		width:80%;
+		margin-left: 10%;
+
+	}
+
+}
+
+
+/* big tablet to 1200px */
+@media only screen and (max-width: 1200px){
+	.hero-text-box{
+		
+		width:100%;
+		padding:0 2%; 
+		
+		
+	}
+	.row{
+		padding: 0 2%;
+	}
+
+
+	.long-copy{
+		
+		width:100%;
+		margin-left: 0%;
+	}
+
+
+}
