@@ -189,13 +189,21 @@ h1{
 
 }
 
-.logo{
+.logo
+{
 	height:65px;
 	width:auto;
 	float:left;
 	margin-top: 20px;
 	
 
+}
+.logo-black{
+	display: none;
+	height:50px;
+	width:auto;
+	float:left;
+	margin-top: 5px;
 }
 
 .main-nav{
@@ -229,6 +237,40 @@ h1{
 	border-bottom: 2px solid #00b894; 
 }
 
+/**Sticky Class**/
+.sticky{
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	background-color:rgba(255,255,255,0.98);
+	box-shadow: 0 2px 2px #efefef;
+	z-index: 9999;
+}
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+	padding: 16px 0;
+	color:#555;
+	
+
+}
+.sticky .logo-black{
+	
+
+	display: block;
+	height:50px;
+	width:auto;
+	float:left;
+	margin: 5px 0;
+}
+.sticky .logo{display: none;}
+
+.sticky .main-nav{
+	
+	margin-top: 18px;
+}
 
 
 
@@ -305,69 +347,6 @@ h3{
 	display: block;
 	color: #00b894;
 	margin-bottom: 10px;
-}
-
-/****Media queries**/
-
-/* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
-	section { padding: 25px 0; }
-	
-		
-    
-}
-
-
-/*  481 ot 767*/
-@media only screen and (max-width: 767px){
-	body{font-size: 16px;}
-	section{padding: 30px 0;}
-
-	.row,
-	.hero-text-box{padding: 0 4%;
-
-	}
-	.col{width: 100%;}
-
-}
-
-
-/* 768 to 1023 */
-@media only screen and (max-width: 1023px){
-	body{font-size: 18px;}
-	section{ padding:60px 0; }
-
-	.long-copy{
-		
-		width:80%;
-		margin-left: 10%;
-
-	}
-
-}
-
-
-/* big tablet to 1200px */
-@media only screen and (max-width: 1200px){
-	.hero-text-box{
-		
-		width:100%;
-		padding:0 2%; 
-		
-		
-	}
-	.row{
-		padding: 0 2%;
-	}
-
-
-	.long-copy{
-		
-		width:100%;
-		margin-left: 0%;
-	}
-
-
 }
 
 
