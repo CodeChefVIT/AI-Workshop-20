@@ -3,6 +3,18 @@
 @media only screen and (max-width: 480px) {
 	section { padding: 25px 0; }
 	
+	
+	
+	.logo
+	{
+		height:60px;
+		width:auto;
+		float:left;
+		
+	}
+		
+
+	
 		
     
 }
@@ -18,6 +30,32 @@
 
 	}
 	.col{width: 100%;}
+	h1{font-size: 180%;}
+	h2{font-size: 150%;}
+	.main-nav{display: none;}
+
+	.hello-nav-icon{display: inline-block;}
+	.main-nav{
+		float: left;
+		margin-top: 35px;
+		margin-left: 25px;
+	}
+	.main-nav li{
+		display: block;
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited{
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+
+	.sticky .main-nav{margin-top: 10px;}
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited{padding: 10px 0;}
+	.sticky .hello-nav-icon i{color: #555;}
+	.sticky .hello-nav-icon {margin-top: 10px;}
 
 }
 
