@@ -47,9 +47,13 @@ h1{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	word-spacing: 4px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	-webkit-animation: moveInLeft 1s ease-out;
-	        animation: moveInLeft 1s ease-out;
+			animation: moveInLeft 1s ease-out;
+			background-clip: text;
 
+			
 }
 
 @-webkit-keyframes moveInLeft{
@@ -284,9 +288,7 @@ h1{
 	
 	margin-top: 18px;
 }
-.js--main-nav{
-	z-index: 9999;
-}
+
 
 
 
@@ -300,17 +302,32 @@ section{
 
 }
 
+
+
+
+
+
 h2{
-	font-weight: 300;
+	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 180%;
+	font-size: 250%;
 	word-spacing: 2px;
 	text-align: center;
 	margin-bottom: 30px;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
 
 }
-
+h2:nth-child(1){
+	background-image:url(https://static.vecteezy.com/system/resources/previews/000/343/066/non_2x/abstract-backround-with-diamond-pattern-vector.jpg);
+}
+h1:nth-child(1){
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSh8JiIDbvnDSzbsOJ9VrLbzWDH_xuUm6eB1Q&usqp=CAU.jpg);
+}
 h2:after{
 	display: block;
 	height:2px;
@@ -337,6 +354,13 @@ h3{
 	text-transform: uppercase;
 	font-size: 110%;
 	margin-bottom: 15px;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQM8BdvpJSgaggn5uEozn7sZ_XzKRqs7EW4YA&usqp=CAU.jpg);
 }
 
 .bat p{
