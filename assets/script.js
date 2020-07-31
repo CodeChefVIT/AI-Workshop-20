@@ -35,6 +35,24 @@ $(document).ready(function() {
         });
       });
 
+       /* Animations on scroll */
+
+
+      $('.js--up-1').waypoint(function(direction) {
+        $('.js--up-1').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+    
+    
+    $('.js--up-2').waypoint(function(direction) {
+        $('.js--up-2').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+    
+   
+
        /* Mobile navigation */
     $('.js--nav-icon').click(function() {
       var nav=$('.js--main-nav');

@@ -587,101 +587,6 @@ cite img{
 
 	}
 }
-/*
-@keyframes moveInRight{
-	0%{
-		opacity: 0;
-		transform: translateX(10rem);
-
-	}
-	80%{
-		transform: translateX(-1rem);
-	}
-
-	100%{
-		opacity: 1;
-		transform: translate(0);
-
-	}
-}
-
-
-/*button*
-.btns:link,
-.btns:visited{
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 15px 40px;
-	display: inline-block;
-	border-radius: 100px;
-	transition: all 0.2s;
-	position: relative;
-	font-size: 16px;
-
-
-
-}
-
-.btns-white{
-	background-color: #fff;
-	color: #777;
-}
-
-.btns:hover{
-	transform: translateY(-3px);
-	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-}
-.btns:active{
-	transform: translateY(-1px);
-	box-shadow: 0 5px 10rem rgba(0,0,0,0.2);
-}
-
-.btns::after{
-	content: "";
-	display: inline-block;
-	height: 100%;
-	width: 100%;
-	border-radius: 100px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	transition: all 0.4s;
-
-}
-.btns-white::after{
-	background-color: #fff;
-}
-.btns:hover::after{
-	transform: scaleX(1.4) scaleY(1.6);
-	opacity: 0;
-
-}
-
-@keyframes moveInBottom{
-	0%{
-		opacity: 0;
-		transform: translateY(30px);
-
-	}
-	
-
-	100%{
-		opacity: 1;
-		transform: translate(0);
-
-	}
-}
-
-.btns-animated{
-	animation: moveInBottom 0.5s ease-out 0.75s;
-	animation-fill-mode: backwards;
-
-}
-
-
-}
-*/
 
 
 
@@ -752,11 +657,107 @@ cite img{
 }
 
 
+.footer {
+    background-color:white;
+    padding: 60px;
+	font-size: 80%;
+	margin-top: 20px;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 160%;
+}
 
 
 
 
+footer p {
+    color:black;
+    text-align: center;
+	margin-top: 20px;
+	background-clip: text;
 
+	
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-instagram{
+	color: #e84393;
+}
+.fa-youtube{
+	color: #e84118;
+}
+.fa-github{
+	color: #211f1f;
+}
+.fa-linkedin{
+	color: #0097e6;
+}.fa-twitter{
+	color: #00acee;
+}
+.fa-medium{
+	color:black;
+}
+
+
+/*animation*/
+.js--up-1{
+	opacity:0 ;
+}
+
+.js--up-1.animated{
+	opacity:1 ;
+
+
+}
+.js--up-2{
+	opacity:0 ;
+}
+
+.js--up-2.animated{
+	opacity:1 ;
+
+
+}
 
 
 
