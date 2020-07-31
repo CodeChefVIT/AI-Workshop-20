@@ -12,6 +12,39 @@
 		float:left;
 		
 	}
+
+	.footer-nav li a:link,
+	.footer-nav li a:visited, 
+	.social-links li a:link,
+	.social-links li a:visited {
+   
+    font-size: 80%;
+    
+    
+   
+    height: 70px;
+	width: 40px;
+	background-color: #f5f6fa;
+	border-radius: 40px;
+	text-align: center;
+	
+	margin: 7px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+	line-height: 70px;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: pink;
+    transform: scale(1.2);
+    font-size: 100%;
+}
+
+.social-links li a:hover,
+.social-links li a:active {
+    font-size: 100%;
+    transform: scale(1.3);
+}
+
 		
 
 	
