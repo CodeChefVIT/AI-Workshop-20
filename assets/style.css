@@ -328,6 +328,12 @@ h2:nth-child(1){
 h1:nth-child(1){
 	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSh8JiIDbvnDSzbsOJ9VrLbzWDH_xuUm6eB1Q&usqp=CAU.jpg);
 }
+h4:nth-child(1){
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSh8JiIDbvnDSzbsOJ9VrLbzWDH_xuUm6eB1Q&usqp=CAU.jpg);
+}
+
+
+
 h2:after{
 	display: block;
 	height:2px;
@@ -495,14 +501,37 @@ h3{
 
 
 .ai-quotes{
-	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("https://specials-images.forbesimg.com/imageserve/5ef030968548c80006be69fb/960x0.jpg?fit=scale");
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("https://img.freepik.com/free-photo/abstract-polygonal-space-low-poly-dark-background-3d-rendering_7247-223.jpg?size=626&ext=jpg");
 	background-size: cover;
 	color:white;
 	background-attachment: fixed;
 
 
 }
+h4{
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 250%;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	background-clip: text;
 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+
+}
+h4:after{
+	display: block;
+	height:2px;
+	background-color: #00b894;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
 blockquote{
 	padding: 2%;
 	font-style: italic;
