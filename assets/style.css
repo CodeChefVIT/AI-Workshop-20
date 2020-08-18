@@ -247,6 +247,7 @@ h1{
 	margin-top: 30px;
 	cursor: pointer;
 	display: none;
+	
 }
 .hello-nav-icon i{
 	font-size: 200%;
@@ -455,6 +456,8 @@ h3{
 .service p:hover{
   opacity:1;
 }
+
+
 
 @media screen and (max-width:800px){
 	.service{
@@ -683,6 +686,25 @@ cite img{
 	.gallery-section .image{
 		flex: 100%;
 	}
+}
+.gallery-section h2{
+	
+		font-weight :900;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 250%;
+		word-spacing: 2px;
+		text-align: center;
+		margin-bottom: 30px;
+		background-clip: text;
+	
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	
+	
+	
+
+
 }
 
 

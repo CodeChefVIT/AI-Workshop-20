@@ -2,6 +2,11 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
 	section { padding: 25px 0; }
+
+	.long-copy{
+		text-align: center;
+		margin-bottom: 15px;
+	}
 	
 	
 	
@@ -11,8 +16,53 @@
 		width:auto;
 		float:left;
 		
+	
 	}
+	.social-links{
+		display: flex;
+    	justify-content: center;
+	}
+	.btn{
+		margin-bottom: 20px;
+	}
+	#Layer_1{
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	}
+	#_x33_0{
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	}
+	#Capa_1{
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	}
+	#_x33_0
 
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto 
+	}
+	
+	.section-features h3{
+		text-align: center;
+		
+
+	}
+	.change{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	.gallery-section h2{
+		font-size: 18px;
+	}
 	
 blockquote:before{
 	content: "\201C";
@@ -22,6 +72,16 @@ blockquote:before{
 	top:3px;
 	left:-2px;
 }
+
+cite{
+	font-size: 90%;
+	margin-top: 25px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom:40px;
+}
+div a{z-index: 2;}
+div .hero-text-box{z-index: 1;}
 
 
 		
@@ -62,7 +122,11 @@ blockquote:before{
 		padding: 10px 0;
 		font-size: 100%;
 	}
-
+	.social-links{
+		display: flex;
+    	justify-content: center;
+	}
+	
 	.sticky .main-nav{margin-top: 10px;}
 	.sticky .main-nav li a:link,
 	.sticky .main-nav li a:visited{padding: 10px 0;}
@@ -76,6 +140,10 @@ blockquote:before{
 @media only screen and (max-width: 1023px){
 	body{font-size: 18px;}
 	section{ padding:60px 0; }
+	.social-links{
+		display: flex;
+    	justify-content: center;
+	}
 
 	.long-copy{
 		
@@ -96,6 +164,7 @@ blockquote:before{
 		
 		
 	}
+	
 	.row{
 		padding: 0 2%;
 	}
