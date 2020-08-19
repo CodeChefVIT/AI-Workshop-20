@@ -521,10 +521,13 @@ h4{
 	margin-bottom: 30px;
 	background-clip: text;
 
+
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
 
+
+	
 }
 h4:after{
 	display: block;
