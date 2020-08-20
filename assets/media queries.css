@@ -9,6 +9,25 @@
 	}
 	
 	
+	.hero-text-box{
+		top:63%;
+		left:50%;
+		transform: translate(-50%,-50%);
+	}
+	.btn{
+		margin-bottom: 20px;
+	}
+
+	
+
+
+
+
+
+
+	
+	
+	
 	
 	.logo
 	{
@@ -22,9 +41,7 @@
 		display: flex;
     	justify-content: center;
 	}
-	.btn{
-		margin-bottom: 20px;
-	}
+	
 	#Layer_1{
 		display: block;
 		margin-left: auto;
@@ -57,11 +74,9 @@
 		text-align: center;
 		margin-bottom: 15px;
 	}
-	h2{
-		font-size: 18px;
-	}
+	
 	.gallery-section h2{
-		font-size: 18px;
+		font-size: 23px;
 	}
 	
 blockquote:before{
@@ -108,7 +123,7 @@ cite{
 	.hello-nav-icon{display: inline-block;}
 	.main-nav{
 		float: left;
-		margin-top: 35px;
+		margin-top: 25px;
 		margin-left: 25px;
 	}
 	.main-nav li{
@@ -118,12 +133,14 @@ cite{
 	.main-nav li a:visited{
 		display: block;
 		border: 0;
-		padding: 10px 0;
+		padding: 5px 0;
 		font-size: 100%;
 	}
 	.social-links{
 		display: flex;
-    	justify-content: center;
+		justify-content: center;
+		float: none;
+		
 	}
 	
 	.sticky .main-nav{margin-top: 10px;}
@@ -150,6 +167,8 @@ cite{
 		margin-left: 10%;
 
 	}
+	
+	
 
 }
 
@@ -174,6 +193,40 @@ cite{
 		width:100%;
 		margin-left: 0%;
 	}
+	.social-links{
+		display: flex;
+    	justify-content: center;
+	}
 
 
 }
+
+/*@media only screen and (max-width: 600px){
+	.hello-nav-icon{display: inline-block;}
+	.main-nav{
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.main-nav li{
+		display: block;
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited{
+		display: block;
+		border: 0;
+		padding: 3.5px 0;
+		font-size: 100%;
+	}
+	.hero-text-box{
+		top:60%;
+		left:50%;
+		transform: translate(-50%,-50%);
+	}
+	.btn{
+		margin-bottom: 20px;
+	}
+	
+}
+
+
