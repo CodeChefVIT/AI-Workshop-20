@@ -20,9 +20,9 @@
 
 
 ## Screenshots
-<img src="https://github.com/aditya-beri/AI-Workshop-20/master/assets/images/2020-08-26(4).png" alt="Project Screenshots">
+<img src="https://github.com/aditya-beri/AI-Workshop-20/assets/images/2020-08-26(4).png" alt="Project Screenshots">
 
-<img src="https://github.com/aditya-beri/AI-Workshop-20/master/assets/images/2020-08-26(5).png" alt="Project Screenshots">
+<img src="https://github.com/aditya-beri/AI-Workshop-20/assets/images/2020-08-26(5).png" alt="Project Screenshots">
 
 
 
