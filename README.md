@@ -1,10 +1,10 @@
 <p align="center"><a href="http://www.codechefvit.com" target="_blank"><img src="https://s3.amazonaws.com/codechef_shared/sites/all/themes/abessive/logo-3.png" title="CodeChef-VIT" alt="Codechef-VIT"></a>
 </p>
 
-# Project Title
+# Intro to AI
 
-> <Subtitle>
-> Include project description here.
+> graVITas 2020
+> Official Website for Intro to AI workshop
 
 ---
 [![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
@@ -14,17 +14,17 @@
 
 
 ## Features
-- Insert list of features here
+- Contains all the necessary details regarding the event.
 
 
 
 
 ## Screenshots
-<img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-07-09%20(6).png" alt="Project Screenshots">
+<img src="assets\images\2020-08-26 (4).png" alt="Project Screenshots">
 
-<img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-07-09%20(9).png" alt="Project Screenshots">
+<img src="assets\images\2020-08-26 (5).png" alt="Project Screenshots">
 
-<img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-07-09%20(11).png" alt="Project Screenshots">
+
 
 
   
@@ -39,8 +39,8 @@ $ python3 manage.py runserver
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/<aditya-beri>">Aditya Beri</a>
+
 
 ## License
 
