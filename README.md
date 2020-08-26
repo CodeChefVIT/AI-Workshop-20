@@ -3,7 +3,7 @@
 
 # Intro to AI
 
-> <graVITas 2020>
+> graVITas 2020
 > Official Website for Intro to AI workshop
 
 ---
@@ -20,9 +20,9 @@
 
 
 ## Screenshots
-<img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-08-26(4).png" alt="Project Screenshots">
+<img src="https://github.com/aditya-beri/AI-Workshop-20/master/assets/images/2020-08-26(4).png" alt="Project Screenshots">
 
-<img src="https://github.com/aditya-beri/AI-Workshop-20/blob/master/assets/images/2020-08-26(5).png" alt="Project Screenshots">
+<img src="https://github.com/aditya-beri/AI-Workshop-20/master/assets/images/2020-08-26(5).png" alt="Project Screenshots">
 
 
 
@@ -39,8 +39,8 @@ $ python3 manage.py runserver
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/<aditya-beri>">Aditya Beri</a>
+
 
 ## License
 
