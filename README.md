@@ -27,16 +27,6 @@
 
 
 
-  
-
-## Instructions to run
-
-```
-$ git clone https://github.com/CodeChefVIT/<Project>
-$ cd <Project>
-$ pip3 install -r requirements.txt
-$ python3 manage.py runserver
-```
 
 ## Contributors
 - <a href="https://github.com/<aditya-beri>">Aditya Beri</a>
