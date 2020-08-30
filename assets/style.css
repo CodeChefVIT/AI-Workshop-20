@@ -826,11 +826,13 @@ footer p {
 
 .footer-distributed{
 	background: white;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 1px 1px 0 rgba(146, 24, 24, 0.12);
+	
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 18px Lato;
+	
 	padding: 55px 50px;
 }
 
@@ -844,12 +846,25 @@ footer p {
 /* Footer left */
 
 .footer-distributed .footer-left{
+
 	width: 40%;
 }
 
-/* The company logo */
+.footer-distributed .footer-left p{
+	background-clip: text;
 
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image:url(https://image.freepik.com/free-vector/colorful-fluid-shapes-background_52683-13194.jpg);
+
+
+}
+
+
+/*
 .footer-distributed h3{
+	
+
 	color:  black;
 	font: normal 36px 'Open Sans', cursive;
 	margin: 0;
@@ -858,6 +873,7 @@ footer p {
 .footer-distributed h3 span{
 	color:  lightseagreen;
 }
+*/
 
 /* Footer links */
 
@@ -884,8 +900,13 @@ footer p {
 
 .footer-distributed .footer-center p{
 	display: inline-block;
-	color: black;
-  font-weight:400;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image:url(https://miro.medium.com/max/1024/1*1aLJp5Tw7c_H7QUScH4nOQ.png);
+
+  	font-weight:400;
 	vertical-align: middle;
 	margin:0;
 }
@@ -893,9 +914,14 @@ footer p {
 .footer-distributed .footer-center p span{
 	display:block;
 	font-weight: normal;
-	font-size:14px;
+	font-size:18px;
 	line-height:2;
-	color: black;
+	background-clip: text;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image:url(https://miro.medium.com/max/1024/1*1aLJp5Tw7c_H7QUScH4nOQ.png);
+
 }
 .footer-company-about span{
 	color: black;
@@ -970,7 +996,7 @@ footer p {
 
 .footer-distributed .footer-company-about span{
 	display: block;
-	color:  black;
+	color:  blueviolet;
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 20px;
