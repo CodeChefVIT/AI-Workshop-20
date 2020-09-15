@@ -629,11 +629,13 @@ cite img{
 /**new img*/
 
 
+
 .gallery-section{
 	width: 100%;
-	padding: 60px 0;
+	padding: 40px 0;
 	background: white;
 }
+
 
 .inner-width{
 	width: 100%;
@@ -679,6 +681,7 @@ cite img{
 
 
 
+
 @media screen and (max-width: 768px){
 	.gallery-section .image{
 		flex: 50%;
@@ -690,7 +693,9 @@ cite img{
 		flex: 100%;
 	}
 }
+
 .gallery-section h2{
+
 	
 		font-weight :900;
 		text-transform: uppercase;
@@ -700,6 +705,7 @@ cite img{
 		text-align: center;
 		margin-bottom: 30px;
 		background-clip: text;
+		
 	
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
